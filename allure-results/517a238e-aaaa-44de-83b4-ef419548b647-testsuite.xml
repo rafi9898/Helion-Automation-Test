@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620036900274' stop='1620036933423'>
+    <name>E2E Test - Product Functionality</name>
+    <title>E2E Test - Product Functionality</title>
+    <test-cases>
+        <test-case start='1620036900274' status='passed' stop='1620036915486'>
+            <name>Should navigate on product page and verify visiblity important elements</name>
+            <title>Should navigate on product page and verify visiblity important elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620036915486' status='passed' stop='1620036916179'>
+            <name>Should click on buy now button and verify message</name>
+            <title>Should click on buy now button and verify message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620036916179' status='passed' stop='1620036918990'>
+            <name>Should click on add opinion button</name>
+            <title>Should click on add opinion button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620036918991' status='passed' stop='1620036921207'>
+            <name>Should add product to cart and verify details</name>
+            <title>Should add product to cart and verify details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620036921208' status='passed' stop='1620036921370'>
+            <name>Should click on remove selected books button and dismiss removing process</name>
+            <title>Should click on remove selected books button and dismiss removing process</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620036921371' status='failed' stop='1620036933423'>
+            <name>Should click on remove selected btn and accept removing process</name>
+            <title>Should click on remove selected btn and accept removing process</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4e9743e2-ae9e-4c94-b5b9-a702f770e1d6-attachment.png' type='image/png' size='424607'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`div.infobox > p`) to have text
+                
+                Expected: "Twój koszyk jest pusty2"
+                Received: "Twój koszyk jest pusty"</message>
+                <stack-trace>Error: Expect $(`div.infobox > p`) to have text
+                
+                Expected: "Twój koszyk jest pusty2"
+                Received: "Twój koszyk jest pusty"
+                    at CartPage.&lt;anonymous> (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:64:40)
+                    at step (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:48:23)
+                    at Object.next (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:29:53)
+                    at /home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:23:71
+                    at CartPage.verifyInfoMessage (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:205:16)
+                    at /home/rafalp/Pulpit/helion-automation/Helion-Automation/tests/specs/Order/product.ts:60:24
+                    at step (/home/rafalp/Pulpit/helion-automation/Helion-Automation/tests/specs/Order/product.ts:33:23)
+                    at Object.next (/home/rafalp/Pulpit/helion-automation/Helion-Automation/tests/specs/Order/product.ts:14:53)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

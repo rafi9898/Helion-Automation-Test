@@ -1,0 +1,58 @@
+{
+  "uid" : "2ca3a13790e03b2f",
+  "name" : "Should navigate on product page and verify visiblity important elements",
+  "fullName" : "E2E Test - Product Functionality.Should navigate on product page and verify visiblity important elements",
+  "historyId" : "13a170974f36f7966960b89b28527ad5",
+  "time" : {
+    "start" : 1620036900274,
+    "stop" : 1620036915486,
+    "duration" : 15212
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should navigate on product page and verify visiblity important elements"
+  }, {
+    "name" : "package",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ca3a13790e03b2f.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

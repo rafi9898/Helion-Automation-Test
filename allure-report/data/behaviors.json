@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Should navigate on product page and verify visiblity important elements",
+    "uid" : "2ca3a13790e03b2f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620036900274,
+      "stop" : 1620036915486,
+      "duration" : 15212
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.85" ]
+  }, {
+    "name" : "Should click on buy now button and verify message",
+    "uid" : "fd2cfc3f9281b9ff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620036915486,
+      "stop" : 1620036916179,
+      "duration" : 693
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.85" ]
+  }, {
+    "name" : "Should click on add opinion button",
+    "uid" : "c1937a40a5a8ea9e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620036916179,
+      "stop" : 1620036918990,
+      "duration" : 2811
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.85" ]
+  }, {
+    "name" : "Should add product to cart and verify details",
+    "uid" : "c6861fed009c7ec3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620036918991,
+      "stop" : 1620036921207,
+      "duration" : 2216
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.85" ]
+  }, {
+    "name" : "Should click on remove selected books button and dismiss removing process",
+    "uid" : "ab438717c1984f45",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620036921208,
+      "stop" : 1620036921370,
+      "duration" : 162
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.85" ]
+  }, {
+    "name" : "Should click on remove selected btn and accept removing process",
+    "uid" : "e29418f0a7a0646d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620036921371,
+      "stop" : 1620036933423,
+      "duration" : 12052
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.85" ]
+  } ]
+}

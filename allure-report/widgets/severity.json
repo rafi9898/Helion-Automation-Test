@@ -1,0 +1,61 @@
+[ {
+  "uid" : "2ca3a13790e03b2f",
+  "name" : "Should navigate on product page and verify visiblity important elements",
+  "time" : {
+    "start" : 1620036900274,
+    "stop" : 1620036915486,
+    "duration" : 15212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e29418f0a7a0646d",
+  "name" : "Should click on remove selected btn and accept removing process",
+  "time" : {
+    "start" : 1620036921371,
+    "stop" : 1620036933423,
+    "duration" : 12052
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6861fed009c7ec3",
+  "name" : "Should add product to cart and verify details",
+  "time" : {
+    "start" : 1620036918991,
+    "stop" : 1620036921207,
+    "duration" : 2216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd2cfc3f9281b9ff",
+  "name" : "Should click on buy now button and verify message",
+  "time" : {
+    "start" : 1620036915486,
+    "stop" : 1620036916179,
+    "duration" : 693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab438717c1984f45",
+  "name" : "Should click on remove selected books button and dismiss removing process",
+  "time" : {
+    "start" : 1620036921208,
+    "stop" : 1620036921370,
+    "duration" : 162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1937a40a5a8ea9e",
+  "name" : "Should click on add opinion button",
+  "time" : {
+    "start" : 1620036916179,
+    "stop" : 1620036918990,
+    "duration" : 2811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

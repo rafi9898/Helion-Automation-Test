@@ -1,0 +1,58 @@
+{
+  "uid" : "ab438717c1984f45",
+  "name" : "Should click on remove selected books button and dismiss removing process",
+  "fullName" : "E2E Test - Product Functionality.Should click on remove selected books button and dismiss removing process",
+  "historyId" : "e3499d50fc817bb28f7443676b59797c",
+  "time" : {
+    "start" : 1620036921208,
+    "stop" : 1620036921370,
+    "duration" : 162
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click on remove selected books button and dismiss removing process"
+  }, {
+    "name" : "package",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab438717c1984f45.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}
