@@ -34,3 +34,4 @@ Download repo <br />
 <hr />
 
 <h3>Jenkins</h3>
+<img src ="https://megarabat.eu/wp-content/uploads/2021/05/Allure-image.png" alt="jenkins image" />
