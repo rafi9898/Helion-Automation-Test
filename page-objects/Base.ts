@@ -10,4 +10,12 @@ export default class Base {
     async pauseLong() {
         await browser.pause(8000);
     }
+
+    async setDesktopSize() {
+        await browser.setWindowSize(1920, 1080);
+    }
+
+    async setMobileSize() {
+        await browser.setWindowSize(375, 667);
+    }
 }

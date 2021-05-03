@@ -6,7 +6,7 @@
   "scripts": {
     "test": "wdio wdio.conf.ts",
     "test-api": "wdio wdio.conf.ts --suite api",
-    "test-visual": "percy exec -- wdio wdio.conf.js --suite visual"
+    "test-implement": "wdio wdio.conf.ts --suite implement"
   },
   "author": "Rafał Podraza",
   "license": "ISC",
@@ -31,6 +31,7 @@
     "wdio-image-comparison-service": "^2.3.0"
   },
   "dependencies": {
+    "@types/mocha": "^8.2.2",
     "@wdio/sync": "^7.5.3"
   }
 }

@@ -1,4 +1,5 @@
-const configs = require('./lib/config');
+import { ConfigInterface } from './types/configTypes';
+const configs:ConfigInterface = require('./lib/config');
 
 export const config: WebdriverIO.Config = {
 
@@ -45,7 +46,7 @@ export const config: WebdriverIO.Config = {
     // will be called from there.
     //
     specs: [
-        './tests/specs/**.ts'
+        './tests/**/**/**.ts'
     ],
     // Patterns to exclude.
 
@@ -54,8 +55,8 @@ export const config: WebdriverIO.Config = {
             './tests/api/**.ts'
         ],
 
-        visual: [
-            './tests/visual/**.ts'
+        implement: [
+            './tests/specs/Order/**.ts'
         ]
     },
 
