@@ -176,7 +176,11 @@ export const config: WebdriverIO.Config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+    }]],
 
 
     
@@ -230,6 +234,8 @@ export const config: WebdriverIO.Config = {
      * @param {Array.<String>} specs        List of spec file paths that are to be run
      * @param {Object}         browser      instance of created browser/device session
      */
+
+      
     before: function (capabilities, specs) {
         require('@babel/register')
         browser.addCommand('waitAndClick', async (selector:string) => {
@@ -286,16 +292,24 @@ export const config: WebdriverIO.Config = {
     // },
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
+     * 
      */
     // afterTest: function(test, context, { error, result, duration, passed, retries }) {
     // },
 
+    afterTest: function (test, context, { error, result, duration, passed, retries }) {
+        require('@babel/register')
+        if (error) {
+          browser.takeScreenshot();
+        }
+      },
 
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details
      */
     // afterSuite: function (suite) {
+        
     // },
     /**
      * Runs after a WebdriverIO command gets executed

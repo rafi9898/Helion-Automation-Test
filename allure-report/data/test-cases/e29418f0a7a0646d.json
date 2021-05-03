@@ -1,0 +1,82 @@
+{
+  "uid" : "e29418f0a7a0646d",
+  "name" : "Should click on remove selected btn and accept removing process",
+  "fullName" : "E2E Test - Product Functionality.Should click on remove selected btn and accept removing process",
+  "historyId" : "1b6a576e7220453df5f3e11f703c6abf",
+  "time" : {
+    "start" : 1620036921371,
+    "stop" : 1620036933423,
+    "duration" : 12052
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`div.infobox > p`) to have text\n                \n                Expected: \"Twój koszyk jest pusty2\"\n                Received: \"Twój koszyk jest pusty\"",
+  "statusTrace" : "Error: Expect $(`div.infobox > p`) to have text\n                \n                Expected: \"Twój koszyk jest pusty2\"\n                Received: \"Twój koszyk jest pusty\"\n                    at CartPage.<anonymous> (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:64:40)\n                    at step (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:48:23)\n                    at Object.next (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:29:53)\n                    at /home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:23:71\n                    at CartPage.verifyInfoMessage (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:205:16)\n                    at /home/rafalp/Pulpit/helion-automation/Helion-Automation/tests/specs/Order/product.ts:60:24\n                    at step (/home/rafalp/Pulpit/helion-automation/Helion-Automation/tests/specs/Order/product.ts:33:23)\n                    at Object.next (/home/rafalp/Pulpit/helion-automation/Helion-Automation/tests/specs/Order/product.ts:14:53)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`div.infobox > p`) to have text\n                \n                Expected: \"Twój koszyk jest pusty2\"\n                Received: \"Twój koszyk jest pusty\"",
+    "statusTrace" : "Error: Expect $(`div.infobox > p`) to have text\n                \n                Expected: \"Twój koszyk jest pusty2\"\n                Received: \"Twój koszyk jest pusty\"\n                    at CartPage.<anonymous> (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:64:40)\n                    at step (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:48:23)\n                    at Object.next (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:29:53)\n                    at /home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:23:71\n                    at CartPage.verifyInfoMessage (/home/rafalp/Pulpit/helion-automation/Helion-Automation/page-objects/pages/CartPage.ts:205:16)\n                    at /home/rafalp/Pulpit/helion-automation/Helion-Automation/tests/specs/Order/product.ts:60:24\n                    at step (/home/rafalp/Pulpit/helion-automation/Helion-Automation/tests/specs/Order/product.ts:33:23)\n                    at Object.next (/home/rafalp/Pulpit/helion-automation/Helion-Automation/tests/specs/Order/product.ts:14:53)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d874ec43e371690",
+      "name" : "Screenshot",
+      "source" : "d874ec43e371690.png",
+      "type" : "image/png",
+      "size" : 424607
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click on remove selected btn and accept removing process"
+  }, {
+    "name" : "package",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e29418f0a7a0646d.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

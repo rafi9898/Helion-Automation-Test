@@ -5,5 +5,5 @@ module.exports = {
     maxInstance: "1",
     timeout: 10000,
     bail: 0,
-    headless: true
+    headless: false
 }

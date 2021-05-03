@@ -1,0 +1,58 @@
+{
+  "uid" : "c6861fed009c7ec3",
+  "name" : "Should add product to cart and verify details",
+  "fullName" : "E2E Test - Product Functionality.Should add product to cart and verify details",
+  "historyId" : "e968a654d7adfa9b11a4cb33e2498fe2",
+  "time" : {
+    "start" : 1620036918991,
+    "stop" : 1620036921207,
+    "duration" : 2216
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should add product to cart and verify details"
+  }, {
+    "name" : "package",
+    "value" : "E2E Test - Product Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6861fed009c7ec3.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

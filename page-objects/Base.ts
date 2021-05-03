@@ -18,4 +18,5 @@ export default class Base {
     async setMobileSize() {
         await browser.setWindowSize(375, 667);
     }
+
 }
